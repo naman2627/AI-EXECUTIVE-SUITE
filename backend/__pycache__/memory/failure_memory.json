@@ -1,0 +1,206 @@
+{
+  "ceo": [],
+  "cfo": [
+    {
+      "state": {
+        "cash": 7699.0675,
+        "burn_rate": 450.0,
+        "expenses": 3060.0,
+        "revenue": 2731.8175
+      },
+      "action": "increase_marketing",
+      "issue": "cash decreased"
+    },
+    {
+      "state": {
+        "cash": 7699.0675,
+        "burn_rate": 450.0,
+        "expenses": 3060.0,
+        "revenue": 2731.8175
+      },
+      "action": "increase_marketing",
+      "issue": "negative profit"
+    },
+    {
+      "state": {
+        "cash": 7568.905328749999,
+        "burn_rate": 450.0,
+        "expenses": 3366.0000000000005,
+        "revenue": 3235.83782875
+      },
+      "action": "hold",
+      "issue": "cash decreased"
+    },
+    {
+      "state": {
+        "cash": 7568.905328749999,
+        "burn_rate": 450.0,
+        "expenses": 3366.0000000000005,
+        "revenue": 3235.83782875
+      },
+      "action": "hold",
+      "issue": "negative profit"
+    },
+    {
+      "state": {
+        "cash": 7535.818292362499,
+        "burn_rate": 450.0,
+        "expenses": 3366.0000000000005,
+        "revenue": 3332.9129636125
+      },
+      "action": "cut_costs",
+      "issue": "cash decreased"
+    },
+    {
+      "state": {
+        "cash": 7535.818292362499,
+        "burn_rate": 450.0,
+        "expenses": 3366.0000000000005,
+        "revenue": 3332.9129636125
+      },
+      "action": "cut_costs",
+      "issue": "negative profit"
+    },
+    {
+      "state": {
+        "cash": 9069.0,
+        "burn_rate": 500.0,
+        "expenses": 3300.0000000000005,
+        "revenue": 2369.0
+      },
+      "action": "hold",
+      "issue": "cash decreased"
+    },
+    {
+      "state": {
+        "cash": 9069.0,
+        "burn_rate": 500.0,
+        "expenses": 3300.0000000000005,
+        "revenue": 2369.0
+      },
+      "action": "hold",
+      "issue": "negative profit"
+    },
+    {
+      "state": {
+        "cash": 8209.07,
+        "burn_rate": 500.0,
+        "expenses": 3300.0000000000005,
+        "revenue": 2440.07
+      },
+      "action": "increase_marketing",
+      "issue": "cash decreased"
+    },
+    {
+      "state": {
+        "cash": 8209.07,
+        "burn_rate": 500.0,
+        "expenses": 3300.0000000000005,
+        "revenue": 2440.07
+      },
+      "action": "increase_marketing",
+      "issue": "negative profit"
+    },
+    {
+      "state": {
+        "cash": 7469.332914999999,
+        "burn_rate": 500.0,
+        "expenses": 3630.000000000001,
+        "revenue": 2890.2629150000002
+      },
+      "action": "cut_costs",
+      "issue": "cash decreased"
+    },
+    {
+      "state": {
+        "cash": 7469.332914999999,
+        "burn_rate": 500.0,
+        "expenses": 3630.000000000001,
+        "revenue": 2890.2629150000002
+      },
+      "action": "cut_costs",
+      "issue": "negative profit"
+    },
+    {
+      "state": {
+        "cash": 7360.803717449999,
+        "burn_rate": 450.0,
+        "expenses": 3085.500000000001,
+        "revenue": 2976.9708024500005
+      },
+      "action": "hold",
+      "issue": "cash decreased"
+    },
+    {
+      "state": {
+        "cash": 7360.803717449999,
+        "burn_rate": 450.0,
+        "expenses": 3085.500000000001,
+        "revenue": 2976.9708024500005
+      },
+      "action": "hold",
+      "issue": "negative profit"
+    },
+    {
+      "state": {
+        "cash": 7341.5836439734985,
+        "burn_rate": 450.0,
+        "expenses": 3085.500000000001,
+        "revenue": 3066.2799265235008
+      },
+      "action": "increase_marketing",
+      "issue": "cash decreased"
+    },
+    {
+      "state": {
+        "cash": 7341.5836439734985,
+        "burn_rate": 450.0,
+        "expenses": 3085.500000000001,
+        "revenue": 3066.2799265235008
+      },
+      "action": "increase_marketing",
+      "issue": "negative profit"
+    },
+    {
+      "state": {
+        "cash": 9510.0,
+        "burn_rate": 450.0,
+        "expenses": 2550.0,
+        "revenue": 2060.0
+      },
+      "action": "cut_costs",
+      "issue": "cash decreased"
+    },
+    {
+      "state": {
+        "cash": 9510.0,
+        "burn_rate": 450.0,
+        "expenses": 2550.0,
+        "revenue": 2060.0
+      },
+      "action": "cut_costs",
+      "issue": "negative profit"
+    },
+    {
+      "state": {
+        "cash": 9464.3,
+        "burn_rate": 405.0,
+        "expenses": 2167.5,
+        "revenue": 2121.8
+      },
+      "action": "hold",
+      "issue": "cash decreased"
+    },
+    {
+      "state": {
+        "cash": 9464.3,
+        "burn_rate": 405.0,
+        "expenses": 2167.5,
+        "revenue": 2121.8
+      },
+      "action": "hold",
+      "issue": "negative profit"
+    }
+  ],
+  "cto": []
+}

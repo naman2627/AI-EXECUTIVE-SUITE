@@ -1,0 +1,20 @@
+{
+  "ceo": [],
+  "cfo": [
+    {
+      "state": {
+        "cash": 5000
+      },
+      "action": "invest_growth",
+      "issue": "cash decreased"
+    },
+    {
+      "state": {
+        "cash": 4500
+      },
+      "action": "increase_marketing",
+      "issue": "negative profit"
+    }
+  ],
+  "cto": []
+}

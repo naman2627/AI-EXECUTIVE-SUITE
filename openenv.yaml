@@ -1,0 +1,13 @@
+name: ai-executive-suite
+version: 1.0.0
+description: "A premium business strategy and simulation dashboard for executive AI agents."
+tasks:
+  - name: ceo
+    grader: "openenv.graders.ceo_grader.grade_ceo"
+    difficulty: easy
+  - name: cfo
+    grader: "openenv.graders.cfo_grader.grade_cfo"
+    difficulty: medium
+  - name: cto
+    grader: "openenv.graders.cto_grader.grade_cto"
+    difficulty: hard
