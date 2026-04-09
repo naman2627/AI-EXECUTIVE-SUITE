@@ -1,5 +1,6 @@
 import random
 from openenv.models import Action, Observation
+from openenv.graders.cfo_grader import grade_cfo
 
 class CFOTask:
     def reset(self, inputs: dict = None):
@@ -17,6 +18,9 @@ class CFOTask:
             "expenses": round(self.expenses, 2),
             "revenue": round(self.revenue, 2),
         }
+
+    def grade(self, state: dict = None) -> float:
+        return grade_cfo(state or self.get_state())
 
     def step(self, action: Action) -> Observation:
         self.step_count += 1
@@ -46,10 +50,10 @@ class CFOTask:
         # Natural growth
         self.revenue *= 1.03
         profit = self.revenue - self.expenses
-        
+
         # Real math: total cash increases/decreases exactly by profit
         self.cash = max(100.0, self.cash + profit)
-        
+
         # Burn rate is either actual net loss, or base expenses
         self.burn_rate = max(100.0, self.expenses - self.revenue if profit < 0 else self.expenses * 0.5)
 
