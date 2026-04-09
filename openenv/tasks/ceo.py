@@ -1,5 +1,6 @@
 import random
 from openenv.models import Action, Observation
+from openenv.graders.ceo_grader import grade_ceo
 
 class CEOTask:
     def reset(self, inputs: dict = None):
@@ -17,6 +18,9 @@ class CEOTask:
             "market_growth": round(self.market_growth, 3),
             "competitor_pressure": round(self.competitor_pressure, 3),
         }
+
+    def grade(self, state: dict = None) -> float:
+        return grade_ceo(state or self.get_state())
 
     def step(self, action: Action) -> Observation:
         self.step_count += 1
