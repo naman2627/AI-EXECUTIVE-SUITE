@@ -3,6 +3,8 @@ from openenv.models import Action, Observation
 from openenv.graders.cfo_grader import grade_cfo
 
 class CFOTask:
+    task_id = "cfo"
+
     def reset(self, inputs: dict = None):
         inputs = inputs or {}
         self.cash = float(inputs.get("cash", 5000.0))

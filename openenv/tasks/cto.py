@@ -3,6 +3,8 @@ from openenv.models import Action, Observation
 from openenv.graders.cto_grader import grade_cto
 
 class CTOTask:
+    task_id = "cto"
+
     def reset(self, inputs: dict = None):
         inputs = inputs or {}
         self.feature_backlog = 20
