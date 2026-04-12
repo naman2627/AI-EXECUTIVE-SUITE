@@ -3,6 +3,8 @@ from openenv.models import Action, Observation
 from openenv.graders.ceo_grader import grade_ceo
 
 class CEOTask:
+    task_id = "ceo"
+
     def reset(self, inputs: dict = None):
         inputs = inputs or {}
         self.revenue = float(inputs.get("revenue", 2000.0))
